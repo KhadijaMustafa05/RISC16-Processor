@@ -114,3 +114,10 @@ Possible extensions include:
 - FPGA implementation
 - Pipelined execution
 - Hazard detection and forwarding
+- ## Simulation Results
+
+The waveform below shows the RISC16 processor executing a test program in ModelSim.
+
+The program counter progresses through the instruction sequence, while the branch logic correctly redirects execution from address `0x0002` to `0x0005`.
+
+![RISC16 Processor ModelSim Simulation](branch_simulation.png.png)
